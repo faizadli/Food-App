@@ -19,6 +19,8 @@
 		A937DBB325EF3D2A00066490 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937DBB225EF3D2A00066490 /* Item.swift */; };
 		A937DBB625EF45F700066490 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937DBB525EF45F700066490 /* ItemView.swift */; };
 		A9BC4AFC25EDEE450019BF2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4AFB25EDEE450019BF2D /* GoogleService-Info.plist */; };
+		A9D1603B25F0880700F3ACD5 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1603A25F0880700F3ACD5 /* Cart.swift */; };
+		A9D1603E25F0991800F3ACD5 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1603D25F0991800F3ACD5 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		A937DBB225EF3D2A00066490 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A937DBB525EF45F700066490 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		A9BC4AFB25EDEE450019BF2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9D1603A25F0880700F3ACD5 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		A9D1603D25F0991800F3ACD5 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		F5545502FB56C48E960C4AF1 /* Pods-Food App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food App.debug.xcconfig"; path = "Target Support Files/Pods-Food App/Pods-Food App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A937DBB225EF3D2A00066490 /* Item.swift */,
+				A9D1603A25F0880700F3ACD5 /* Cart.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				A925C98025EC9EF1001D87E4 /* Menu.swift */,
 				A925C98325ECA2A3001D87E4 /* Home.swift */,
 				A937DBB525EF45F700066490 /* ItemView.swift */,
+				A9D1603D25F0991800F3ACD5 /* CartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D1603E25F0991800F3ACD5 /* CartView.swift in Sources */,
 				A925C96C25EC937D001D87E4 /* ContentView.swift in Sources */,
 				A925C97D25EC95CD001D87E4 /* HomeViewModel.swift in Sources */,
 				A925C98425ECA2A3001D87E4 /* Home.swift in Sources */,
@@ -264,6 +271,7 @@
 				A937DBB625EF45F700066490 /* ItemView.swift in Sources */,
 				A937DBB325EF3D2A00066490 /* Item.swift in Sources */,
 				A925C96A25EC937D001D87E4 /* Food_AppApp.swift in Sources */,
+				A9D1603B25F0880700F3ACD5 /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
